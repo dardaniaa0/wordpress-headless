@@ -6,6 +6,7 @@
   "author": "Colby Fayock <hello@colbyfayock.com>",
   "scripts": {
     "build": "next build",
+    "vercel-build": "yum install gcc-c++ cairo-devel pango-devel libjpeg-turbo-devel giflib-devel",
     "dev": "next dev",
     "export": "next export",
     "format": "yarn lint --fix",
